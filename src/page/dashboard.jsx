@@ -1,5 +1,4 @@
 import React from "react";
-import "./dashboard.css";
 import Tile from "../component/constant/tile";
 import MiniCard from "../component/constant/card";
 import { KPI } from "../component/constant/kpi";
@@ -24,7 +23,7 @@ export default function Dashboard() {
           <div className="chart-card">
             <div className="chart-header">
               <div className="legend">
-                <div>
+                <div className="sales-container">
                   <p className="muted">Sales Overview</p>
                   <p className="muted-slim">Showing overview Jan 2022 - Sep 2022</p>
                 </div>

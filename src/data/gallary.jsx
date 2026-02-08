@@ -1,4 +1,4 @@
-import SECOND from "../assets/svg/firstImage.svg"
+import SECOND from "../assets/svg/firstimage.svg"
 import THIRD from "../assets/svg/secondimage.svg"
 
 export const gallery = [
@@ -10,11 +10,11 @@ export const gallery = [
   {
   badge: "MOST WATCHLISTED",
   title: "Urban Prime Plaza Premiere",
-  img: <img src={SECOND} alt="second"/>,
+  img: SECOND,
 },
 {
   badge: "HOTTEST LISTING",
   title: "Urban Prime Plaza Premiere",
-  img: <img src={THIRD} alt="second"/>
+  img: THIRD
 },
 ];
