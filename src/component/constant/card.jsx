@@ -1,3 +1,4 @@
+import React from "react";
 import DELETE from "../../assets/svg/delete.svg"
 import PERSON from "../../assets/svg/person.svg"
 

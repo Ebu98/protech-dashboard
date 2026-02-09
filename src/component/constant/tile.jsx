@@ -1,3 +1,4 @@
+import React from "react";
 function Tile({ badge, title, img }) {
   return (
     <div className="tile">

@@ -1,3 +1,5 @@
+import React from "react";
+
 const LABEL_COLORS = {
   "₦120,000,000.00": "#2563eb",
   "₦50,000,000.00": "#16a34a",
