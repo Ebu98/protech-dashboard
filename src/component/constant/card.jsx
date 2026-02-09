@@ -1,8 +1,14 @@
+import DELETE from "../../assets/svg/delete.svg"
+import PERSON from "../../assets/svg/person.svg"
+
 function MiniCard({ title, items }) {
   return (
     <div className="mini-card">
       <div className="mini-header">
-        <span>{title} Overview</span>
+        <div className="delete-container">
+          {title == "Listings" ? <img src={DELETE} alt="delete" /> : <img src={PERSON} alt="person" />}
+          <span className="card-title">{title} Overview</span>
+        </div>
         <button className="link">View all</button>
       </div>
       <div className="mini-grid">
