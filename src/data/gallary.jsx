@@ -1,5 +1,5 @@
 import SECOND from "../assets/svg/firstImage.svg"
-import THIRD from "../assets/svg/secondImage.svg"
+import THIRD from "../assets/svg/second.svg"
 
 export const gallery = [
   {
